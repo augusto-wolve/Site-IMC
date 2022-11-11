@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de IMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="cartao">
+
+            <div class="imagem">
+                <h1>Indice de Massa Corporal</h1>
+
+                <img src="./assets/img/imc.png" alt="imagem-imc">
+            </div>
+
+            <div class="informacao">
+
+                <input type="text" placeholder="Escreva Seu Nome!" id="nome-pessoal">
+
+                <input type="number" placeholder="altura em centimetros!" id="altura">
+
+                <input type="number" placeholder=" peso atual!" id="peso">
+
+                <input type="button" value="verificar" onclick="verificar()">
+
+                <div class="resposta">
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
